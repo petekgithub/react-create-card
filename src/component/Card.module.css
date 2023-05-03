@@ -1,0 +1,23 @@
+/* lets just assume we want 3 cards, for that reason we're gonne use grid and fr */
+
+.container {
+  max-width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 3rem;
+  background-color: rgb(222, 228, 228);
+}
+.carImg {
+  max-width: 100%;
+}
+.name {
+  font-weight: 20px;
+}
+.card {
+  max-width: 39vw;
+  border: 2px solid black;
+}
+.name {
+  font-size: 40px;
+  text-align: center;
+}
